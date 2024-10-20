@@ -1,0 +1,92 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 25px;
+}
+
+.arrow-back {
+  width: 24px;
+}
+
+header div {
+  font-weight: 700;
+}
+
+.greeting {
+  width: 170px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+.greeting span {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.form div {
+  font-size: 12px;
+}
+
+.form input {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 230px;
+  border-radius: 7px;
+  border: none;
+  background-color: #D9D9D9;
+  margin-top: 5px;
+}
+
+.password {
+  margin-top: 23px;
+}
+
+.form div:last-child {
+  font-size: 10px;
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button {
+  width: 180px;
+  height: 30px;
+  font-family: "IBM Plex Mono", monospace;
+  background-color: #000;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
